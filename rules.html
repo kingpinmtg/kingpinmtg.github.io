@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rules</title>
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/non-mobile.css">
+    <link rel="stylesheet" href="css/global-styles.css">
+</head>
+<body>
+    <div id="header">
+        <h1>Kingpin - A new MTG format</h1>
+    </div>
+    
+    <div id="nav">
+        <ul id="nav-options">
+            <li><a href="index.html"><h3>Home</h3></a></li>
+            <li><a href="rules.html"><h3>Rules</h3></a></li>
+            <li><a href="banlist.html"><h3>Banlist</h3></a></li>
+            <li><a href="watchlist.html"><h3>Watchlist</h3></a></li>
+            <li><a href="news.html"><h3>News</h3></a></li>
+        </ul>
+    </div>
+
+    <div id="nav-mobile" class="hidden">
+        <button onclick="dropDown()"><img src="images/menu-icon.png"></button>
+    </div>
+
+    <div id="nav-mobile-options" class="hidden">
+        <a href="index.html"><h3>Home</h3></a>
+        <a href="rules.html"><h3>Rules</h3></a>
+        <a href="banlist.html"><h3>Banlist</h3></a>
+        <a href="watchlist.html"><h3>Watchlist</h3></a>
+        <a href="news.html"><h3>News</h3></a>
+    </div>
+
+    <div id="content">
+        <div class="content-pane two-thirds-width">
+            <h1>Rules</h1>
+            <ul>
+                <li>30 starting life</li>
+                <li>75 card deck, including the Commander</li>
+                <li>Decklist may contain only 1 copy of any card except basic lands</li>
+                <li>A deck's Commander may be any legendary creature, or Planeswalker</li>
+                <li>Commanders will begin each game in the command zone and will cost 
+                    (2) more to cast for each time they have been cast from the command zone</li>
+                <li>All cards in a deck will be within the color identity of the deck's 
+                    commander</li>    
+                <li>No sideboard</li>
+                <li>If a player takes 20* total combat damage from any team's commanders, their
+                    team loses the game.**</li>
+                <li>If teams consist of two or more players, the starting life total is 40</li>
+            </ul>
+            <p>
+                *This value is subject to change pending further testing.<br>
+                **All commanders on one team contribute to the 20 damage towards another team 
+                together.
+            </p>
+        </div>
+    </div>
+
+    <script src="js/formatter.js"></script>
+</body>
+</html>
