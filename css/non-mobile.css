@@ -1,6 +1,7 @@
 body {
     overflow-x: hidden;
     overflow-y: hidden;
+    background-color: lightgray;
 }
 
 #header h1, #content h1 {
@@ -8,9 +9,11 @@ body {
 }
 
 #content {
-    width: 100%;
+    width: 66.66666666666666%;
+    margin-left: 16.66666666666666%;
     height: 83%;
     overflow-y: auto;
+    background-color: white;
 }
 
 #content h2 {
@@ -52,6 +55,10 @@ body {
 
 .two-thirds-width {
     width: 66.666666666666%;
+}
+
+.three-quarter-width {
+    width: 75;
 }
 
 .half-width {
