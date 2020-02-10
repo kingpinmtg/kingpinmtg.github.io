@@ -65,6 +65,10 @@ body {
     width: 50%;
 }
 
+.mana-symbol {
+    width: 2%;
+}
+
 ::-webkit-scrollbar {
     width: 0px;
 }

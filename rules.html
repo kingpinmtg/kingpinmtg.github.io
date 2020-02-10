@@ -40,23 +40,47 @@
         <div class="content-pane">
             <h1>Rules</h1>
             <ul>
-                <li>30 starting life</li>
-                <li>75 card deck, including the Commander</li>
-                <li>Decklist may contain only 1 copy of any card except basic lands</li>
-                <li>A deck's Commander may be any legendary creature, or Planeswalker</li>
-                <li>Commanders will begin each game in the command zone and will cost 
-                    (2) more to cast for each time they have been cast from the command zone</li>
-                <li>All cards in a deck will be within the color identity of the deck's 
-                    commander</li>    
+                <li>30 starting life.</li>
+                <li>75 card deck, including the Commander.</li>
+                <li>Decklist may contain only 1 copy of any card except basic lands.</li>
+                <li>A deck's Commander may be any legendary creature, or Planeswalker.</li>
+                <li>
+                    Commanders will begin each game in the command zone and will cost 
+                    <img src="images/mana_symbols/2.svg" class="mana-symbol"> 
+                    more to cast for each time they have been cast from the command zone.
+                </li>
+                <li>
+                    A deck may only play cards that could be successfully cast, and its abilities 
+                    activated, within your commander's color identity.
+
+                    (For example, if your commander's color identity is 
+                    <img src="images/mana_symbols/B.svg" class="mana-symbol">
+                    <img src="images/mana_symbols/G.svg" class="mana-symbol">
+                    <img src="images/mana_symbols/U.svg" class="mana-symbol">, you cannot include a
+                    card who's casting cost is <img src="images/mana_symbols/B.svg" class="mana-symbol">,
+                    but has an activated ability cost of  <img src="images/mana_symbols/R.svg" class="mana-symbol">. 
+                    You <b>can</b>, however, include a card whose casting cost is
+                    <img src="images/mana_symbols/BR.svg" class="mana-symbol">, since it is capable
+                    of being cast using <img src="images/mana_symbols/B.svg" class="mana-symbol">. 
+                    You may also include a card whose casiting cost is <img src="images/mana_symbols/B.svg" class="mana-symbol"> 
+                    with an activated ability of <img src="images/mana_symbols/WB.svg" class="mana-symbol">
+                    since both are capable of being cast using <img src="images/mana_symbols/B.svg" class="mana-symbol">.
+
+                </li>    
                 <li>No sideboard</li>
-                <li>If a player takes 20* total combat damage from any team's commanders, their
-                    team loses the game.**</li>
-                <li>If teams consist of two or more players, the starting life total is 40</li>
+                <li>
+                    If a team takes 16* total combat damage from any commanders, their
+                    team loses the game. (For example, if 
+                    <span style="color: red">Player A</span> has taken 8 combat damage from 
+                    <span style="color: blue">Player B's</span> commander and 4 combat damage from
+                    <span style="color: purple">Player C's</span> commander, 
+                    <span style="color: red;".>Player A</span> has taken 12 commander damage.)
+                </li>
+                <li>A team may consist of one or more players.</li>
+                <li>If teams consist of two or more players, the starting life total is 40.</li>
             </ul>
             <p>
-                *This value is subject to change pending further testing.<br>
-                **All commanders on one team contribute to the 20 damage towards another team 
-                together.
+                *This value is subject to change pending further testing.
             </p>
         </div>
     </div>
