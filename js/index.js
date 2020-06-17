@@ -6,9 +6,6 @@ window.onload = () => {
         .then( (data) => {
             data = data.replace(/\r\n/g, "\n"); // replaces Windows line endings with UNIX line endings
             let articles = substringsBetween("//START", "//END", data);
-            articles = articles.reverse();
-            articles.forEach( (article) => {
-                addToDOM(article, newsPane);
-            });
+            addToDOM(articles[articles.length-1], newsPane);
         });
 }
